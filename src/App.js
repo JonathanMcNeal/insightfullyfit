@@ -1,10 +1,9 @@
 
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <h1>HelloWorld</h1>
+     <h1>Macro Calculator</h1>
     </div>
   );
 }
