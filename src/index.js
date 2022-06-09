@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
+import Deficit from './Components/Deficit';
 
-import TDEE from './Components/TDEE';
+import BMRCal from './Components/BMRCal';
+
+//import TDEE from './Components/TDEE';
+
+
 
 
 
@@ -15,8 +20,12 @@ root.render(
   <React.StrictMode>
     <App />
     
-    
-    <TDEE/>
+    <Deficit/>
+
+    <BMRCal/>
+
+
+
   </React.StrictMode>
 );
 
