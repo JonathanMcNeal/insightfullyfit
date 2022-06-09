@@ -3,7 +3,7 @@ import React  from 'react';
 function App() {
   return (
     <div className="App">
-     <h1>Macro Calculator</h1>
+     <h1>Macros Calculator</h1>
     </div>
   );
 }

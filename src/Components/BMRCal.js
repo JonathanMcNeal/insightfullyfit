@@ -34,8 +34,8 @@ class BMRCal extends React.Component {
 
   updateC = z => this.setState({ c: +z.target.value });
 
-  inchToCm = () => (this.state.a * 2.54,10);
-  lbsToKg = ()  => (this.state.c / 2.2,10);
+  inchToCm = () => parseInt(this.state.a * 2.54,10);
+  lbsToKg = ()  => parseInt(this.state.c / 2.2,10);
 
   resultMale = () =>  (88.362 + (13.397 * this.lbsToKg()) + (4.799 * this.inchToCm()) - (5.677 * this.updateB));
  // resultFemale = () => (447.593 + (9.247 * this.lbsToKg()) + (3.098 * this.inchToCm()) - (4.330 * this.updateB));
